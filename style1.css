@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.music-player {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.song-info {
+    margin-bottom: 20px;
+}
+
+#title, #artist, #album {
+    margin: 5px 0;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.playlist {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.playlist-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+.playlist-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .music-player {
+        width: 90%;
+    }
+}
